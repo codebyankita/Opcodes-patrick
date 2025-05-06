@@ -125,3 +125,12 @@ Type: uint256
 
 
 - forge test --mt testMulwadUnit -vvv   
+- forge test
+
+lean about fuzz testing and formalverification and unit testing 
+-symbolic execution
+-abstract interpretation
+-model checking
+
+
+-solc --model-checker-engine  chc --modal-checker-targets overflow smallsol.sol
