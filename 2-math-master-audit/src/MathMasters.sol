@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT
+ // SPDX-License-Identifier: MIT
 // @notice We intentionally want to leave this as floating point so others can use it as a library.
 pragma solidity ^0.8.3;
 

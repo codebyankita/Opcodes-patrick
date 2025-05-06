@@ -93,3 +93,35 @@ XX
 # Known Issues
 
 None
+
+
+
+-after dwonload this repo and try this command
+-make slither   slither . --config-file slither.config.json 
+'forge clean' running (wd: /Users/ankitakapadiya/Desktop/opcodes-patric/2-math-master-audit)
+'forge config --json' running
+'forge build --build-info --skip */test/** */script/** --force' running (wd: /Users/ankitakapadiya/Desktop/opcodes-patric/2-math-master-audit)
+INFO:Detectors:
+MathMasters.mulWad(uint256,uint256) (src/MathMasters.sol#36-46) uses assembly
+        - INLINE ASM (src/MathMasters.sol#38-45)
+MathMasters.mulWadUp(uint256,uint256) (src/MathMasters.sol#49-60) uses assembly
+        - INLINE ASM (src/MathMasters.sol#51-59)
+MathMasters.sqrt(uint256) (src/MathMasters.sol#67-98) uses assembly
+        - INLINE ASM (src/MathMasters.sol#69-97)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#assembly-usage
+INFO:Slither:. analyzed (1 contracts with 98 detectors), 3 result(s) found
+make: *** [slither] Error 255
+ankitakapadiya@Ankitas-MacBook-Pro 2-math-master-audit % 
+
+-ankitakapadiya@Ankitas-MacBook-Pro 2-math-master-audit % chisel
+Welcome to Chisel! Type `!help` to show available commands.
+➜ uint256 x = 0x01
+➜ x
+Type: uint256
+├ Hex: 0x1
+├ Hex (full word): 0x0000000000000000000000000000000000000000000000000000000000000001
+└ Decimal: 1
+➜ 
+
+
+- forge test --mt testMulwadUnit -vvv   
