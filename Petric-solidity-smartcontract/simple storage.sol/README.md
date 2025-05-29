@@ -37,3 +37,23 @@ https://sepolia.explorer.zksync.io/address/0x17aeA8944A32FFEc1Ce197cD7023aB55562
 
 -https://sepolia.explorer.zksync.io/address/0x0eD1D57b8945bD696eb2519C2Bde0F4BE2A747A2
 -in the after deploy contract blue button for showing like view and public so with that not any transction happen but when you click oragnge button with write then transction popup and confirm with metamsk or any other wallet also 
+
+
+when anyone want link token of etherum sepolia than they can get from this also 
+other token also you can get from here 
+https://faucets.chain.link/
+I've been trying to make my first transaction using the faucet recommended but every single time I try it I get a message that says native tokens require the user to hold at least one link on Ethereum Mainnet. What am I doing wrong please?
+
+Replies:2 comments · 17 replies
+
+EngrPips
+on Nov 21, 2024
+You are not doing anything wrong, Getting sepolia eth has been difficult lately. You can try this faucet https://sepolia-faucet.pk910.de/
+
+16 replies
+@Mengbuxiu
+Mengbuxiu
+on Feb 19
+Try this https://sepolia-faucet.pk910.de/ or this https://cloud.google.com/application/web3/faucet/ethereum/sepolia @Vladimir-Silenko
+
+Thank you so much for your help. I got 1 score in the first link, the second one is what i neeed! THX!

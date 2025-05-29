@@ -29,3 +29,18 @@ ETH/zkSync/Arbitrum/Optimism/etc Address: `cyfrin1.eth`: 0x3846c3A30E62075Fa9162
 [![Patrick Collins YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
 [![Patrick Collins Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/patrickalphac/)
 [![Patrick Collins Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@patrick.collins_58673/)
+
+
+
+-for price feed address only use with chainlink 
+than visit this link and you get some sample contract copy firts contract and try in remix you get first price with decimal 
+https://docs.chain.link/data-feeds/getting-started
+-and if you want to change address than from this you can choose network and paste their address 
+https://docs.chain.link/data-feeds/price-feeds/addresses?page=1&testnetPage=1
+here is the block hash 
+https://sepolia.etherscan.io/tx/0x196ff92ff0974a2d9479fe13d7b782d5f0098b24e167cf91b872c7a76f3aea19
+
+
+in fundme contract from github from here we can import and see all contracts in github
+https://github.com/smartcontractkit/chainlink/blob/develop/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol
+-from this contract we get abi

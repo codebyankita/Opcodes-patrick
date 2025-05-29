@@ -30,6 +30,9 @@ contract FundMe {
 
     function getVersion() public view returns (uint256) {
         AggregatorV3Interface priceFeed = AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306);
+        //this address we get from here   // Sepolia ETH / USD Address
+       // https://docs.chain.link/data-feeds/price-feeds/addresses
+       // this function return 4 beacuse set to that from chainlink
         return priceFeed.version();
     }
 
