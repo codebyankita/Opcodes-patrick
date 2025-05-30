@@ -76,3 +76,9 @@ so made new folders out
 -after command 
 anvil 
 so you can see sample wallets with keys
+-aftter start anvil in oter terminal start the command this 
+- forge create SimpleStorage --rpc-url http://127.0.0.1:8545 --interactive
+- or like this in terminal 
+-forge create SimpleStorage  --interactive 
+-forge create SimpleStorage --rpc-url http://127.0.0.1:8545 --private-key 0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d
+-if you want to remove your key from history then write the -history -c
